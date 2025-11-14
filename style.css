@@ -1,0 +1,108 @@
+/* Professional CSS for GY's Personal Introduction Website */
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #f4f7fb;
+    color: #222;
+    line-height: 1.7;
+}
+header {
+    background: linear-gradient(90deg, #284375 0%, #446fa1 100%);
+    color: #fff;
+    padding: 46px 0 26px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(40, 67, 117, 0.09);
+}
+header h1 {
+    font-weight: 700;
+    font-size: 2.3rem;
+    letter-spacing: 0.6px;
+    margin-bottom: 0.5rem;
+}
+header p {
+    font-size: 1.12rem;
+    font-weight: 400;
+    margin-top: 0;
+    opacity: 0.85;
+}
+
+.container {
+    width: 92%;
+    max-width: 780px;
+    margin: 35px auto 0 auto;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(41, 54, 109, 0.10);
+    padding: 40px 48px 32px 48px;
+    transition: box-shadow 0.25s;
+}
+.container:hover {
+    box-shadow: 0 8px 32px rgba(41,54,109,0.13);
+}
+
+.section-title {
+    color: #284375;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #eaecef;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+    margin-top: 36px;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+li {
+    margin-bottom: 6px;
+    font-size: 1.05rem;
+}
+.contact-info {
+    margin-top: 22px;
+    padding: 20px 24px;
+    background: linear-gradient(90deg, #e8f0fa 0%, #f8fbff 100%);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(40, 67, 117, 0.03);
+    font-size: 1.05rem;
+}
+.contact-info a {
+    color: #284375;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+.contact-info a:hover {
+    color: #e39134;
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .container {
+        padding: 18px 8px;
+        width: 98%;
+    }
+    header {
+        padding: 30px 0 12px 0;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+    .section-title {
+        font-size: 1.05rem;
+        padding-bottom: 2px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: #446fa1;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+    background: #eaecef;
+}
